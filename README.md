@@ -39,33 +39,37 @@ Action is the most common genre but has low sales per game.
 Shooter games, while fewer in number, are more profitable per title.
 High average sales: Shooter, Sports, and Role-Playing.
 Low average sales: Puzzle, Strategy, and Simulation.
-### 🌍 User Profiling by Region
+### 🌍 Region-specific preferences by platform, genre, and ESRB rating.
   - North America & Europe:
       - Top-selling platforms: PS4, XOne
       - Preferred genres: Shooter, Sports, Action
-      - ESRB ratings matter – M-rated (Mature) games sell the most
+      - ESRB ratings matter – M-rated (Mature) games sell the most followed by E-rated games
   - Japan:
       - Top platform: 3DS
       - Preferred genres: Role-Playing
-      - ESRB ratings have less impact; more cultural variability
+      - ESRB ratings have less impact; more cultural variability - T-rated games are favored and shows a strong prefrence foor handheld platforms. 
 
+## 🔬 Hypothesis Testing
+Test 1: Are average user ratings the same for Xbox One and PC?
+- Null Hypothesis (H₀): Mean ratings are equal
+- Result: p > 0.05, fail to reject H₀ → No significant difference
+Test 2: Are average user ratings different between Action and Sports games?
+- Null Hypothesis (H₀): Mean ratings are equal
+- Result: p < 0.05, reject H₀ → Significant difference found
 
+## ✅ Conclusion
+The analyasis provided a data-driven way to forecast game success for 2017. By focusing on top-performing platforms (PS4,XOne), understanding genre profitability, and analyzing regional preferences, Ice can make smarter decisions about game promotions and inventory. 
+Most importantly, we found that while reviews have only a weak correlation with sales platform trends, genre choice, and regional preferences are strong predictors of success. 
 
+## 💻 How to Run the Project
+1. Clone the repo or download the notebook.
+2. Install Python and required libraries:
+``` bash
+pip install pandas matplotlib seaborn scipy
+```
+3. Open the Jupyter Notebook and run each cell in order.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## 🤝 Credits
+This project was created as part of the TripleTen Data Science program. Special thanks to:
+Kaggle forthe original dataset
+TripleTen instructors and peers for ongoing support and feedback
