@@ -39,6 +39,15 @@ Action is the most common genre but has low sales per game.
 Shooter games, while fewer in number, are more profitable per title.
 High average sales: Shooter, Sports, and Role-Playing.
 Low average sales: Puzzle, Strategy, and Simulation.
+### 🌍 User Profiling by Region
+  - North America & Europe:
+      - Top-selling platforms: PS4, XOne
+      - Preferred genres: Shooter, Sports, Action
+      - ESRB ratings matter – M-rated (Mature) games sell the most
+  - Japan:
+      - Top platform: 3DS
+      - Preferred genres: Role-Playing
+      - ESRB ratings have less impact; more cultural variability
 
 
 
