@@ -73,3 +73,6 @@ pip install pandas matplotlib seaborn scipy
 This project was created as part of the TripleTen Data Science program. Special thanks to:
 Kaggle forthe original dataset
 TripleTen instructors and peers for ongoing support and feedback
+
+## 🛡️ License
+This project is licensed under the MIT License.
